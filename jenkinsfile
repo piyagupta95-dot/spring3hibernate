@@ -2,8 +2,9 @@ pipeline {
     agent any
 
 tools {
-        maven 'Maven 3.x' 
-        jdk   'Java 8'
+        // Updated to match your system's exact tool names
+        maven 'maven' 
+        jdk   'openjdk-17'
     }
 
     // ADD THIS ENVIRONMENT BLOCK:
