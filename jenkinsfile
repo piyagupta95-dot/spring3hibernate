@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven 3.x' // Must match the name of the Maven tool configured in your Jenkins Global Tool Configuration
-        jdk 'Java 8'      // Must match the name of your Java installation in Jenkins
-    }
-
     stages {
         stage('Checkout & Clean') {
             steps {
