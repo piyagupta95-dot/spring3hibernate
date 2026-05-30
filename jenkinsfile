@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Checkout & Clean') {
             steps {
-                git branch: 'main', url: 'https://github.com/piyagupta95-dot/spring3hibernate.git'
+                // This replaces the rigid 'git branch: main...' line
+                echo 'Cleaning workspace...'
                 sh 'mvn clean'
             }
         }
