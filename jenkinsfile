@@ -54,7 +54,7 @@ tools {
             }
         }
 
-        sstage('Verify & Check Coverage') {
+        stage('Verify & Check Coverage') {
             steps {
                 echo "Verifying Code Quality and Enforcing Coverage Check..."
                 // Running standard verify handles failsafe verification and reads your jacoco rule sets correctly
