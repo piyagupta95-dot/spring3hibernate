@@ -115,9 +115,9 @@
                 </configuration>
             </plugin>
 
-            <plugin>
+           <plugin>
                 <groupId>org.jacoco</groupId>
-                <artifactId>maven-jacoco-plugin</artifactId>
+                <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.8</version>
                 <executions>
                     <execution>
@@ -156,6 +156,3 @@
                     </execution>
                 </executions>
             </plugin>
-        </plugins>
-    </build>
-</project>
